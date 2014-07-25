@@ -1,0 +1,24 @@
+{
+    "name": "amar/media",
+    "description": "",
+    "authors": [
+        {
+            "name": "Amar OUALI",
+            "email": "ouali-amar@laposte.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Amar\\Media\\": "src/",
+            "Amar\\Controller\\" :"src/controllers"
+        }
+    },
+    "minimum-stability": "stable"
+}
